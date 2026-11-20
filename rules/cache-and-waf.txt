@@ -1,0 +1,1 @@
+(http.host eq "www.example.com" and (http.request.uri.path eq "/metrics" or starts_with(http.request.uri.path, "/metrics/") or http.request.uri.path eq "/scripts" or starts_with(http.request.uri.path, "/scripts/")))
